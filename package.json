@@ -1,0 +1,42 @@
+{
+  "name": "threejs-stereo",
+  "version": "0.0.1",
+  "description": "Initial testing for three js stereo scoping",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Poyner",
+  "license": "ISC",
+  "dependencies": {
+    "backbone": "^1.2.2",
+    "body-parser": "^1.13.3",
+    "browserify": "^11.0.1",
+    "browserify-shim": "^3.8.10",
+    "cookie-parser": "^1.3.5",
+    "debowerify": "^1.3.1",
+    "domready": "^1.0.8",
+    "express": "^4.13.3",
+    "express-device": "^0.3.11",
+    "grunt": "^0.4.5",
+    "jade": "^1.11.0",
+    "matchdep": "^0.3.0",
+    "node-bourbon": "^4.2.3",
+    "node-neat": "^1.7.2",
+    "node-reset-scss": "^1.0.1",
+    "nodemon": "^1.4.1",
+    "three.js": "^0.1.0",
+    "underscore": "^1.8.3",
+    "wolfy87-eventemitter": "^4.2.11"
+  },
+  "browserify-shim": {},
+  "devDependencies": {
+    "grunt-bower": "^0.20.0",
+    "grunt-browserify": "^4.0.0",
+    "grunt-concurrent": "^2.0.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-express": "^1.4.1",
+    "grunt-nodemon": "^0.4.0",
+    "grunt-sass": "^1.0.0"
+  }
+}

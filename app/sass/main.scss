@@ -1,0 +1,15 @@
+@import 'reset';
+
+@import './media-queries';
+@import './includes/nav';
+
+body{
+  background: white;
+}
+
+canvas{
+  border: 1px solid black;
+}
+
+@import 'device/phone/phone';
+@import 'device/tablet/tablet';

@@ -1,0 +1,14 @@
+nav{
+  @include iphone4{ 
+    background: red;  
+  }
+  @include iphone5{ 
+    background: green;  
+  }
+  @include iphone6{ 
+    background: yellow;  
+  }
+  @include iphone6-plus{ 
+    background: blue;  
+  }
+}

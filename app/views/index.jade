@@ -1,0 +1,18 @@
+doctype html5
+include includes/header.jade
+  body
+    nav
+    #content
+      ul(style='list-style:none; color:black; font-size:10px;')
+        li#z z - sine
+        li#x x - square
+        li#c c - sawtooth
+        li#v v - triangle
+
+    #nav
+      button#play play
+      button#stop stop
+
+    canvas#myCanvas(width="1000", height="1000")
+
+    script(src="/js/main.js", type="text/paperscript", canvas="myCanvas")
